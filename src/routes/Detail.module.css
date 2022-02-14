@@ -1,0 +1,17 @@
+.container {
+  position: absolute;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: black;
+  height: 100%;
+  width:100%;
+}
+
+.link {
+  color: red;
+}
+
+.text {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(400px, 1fr));
+}
